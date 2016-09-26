@@ -7,5 +7,15 @@
             width: 200px;
         }
         table , th, td{
+            background-color: #F0FFFF;
     
+        }
+        .header{
+            background-color: #FFF8DC;
+        }
+        .main{
+            background-color: #F0F8FF;
+        }
+        .footer{
+            background-color: #FFFAF0;
         }
