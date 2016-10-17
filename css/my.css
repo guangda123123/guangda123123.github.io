@@ -1,16 +1,17 @@
 
         img {
-            width: 600px;
-            height: 400px;
+            width: 150px;
+            height: 150px;
         }
         
         img.mying {
             width: 600px;
-            height: 700px;
+            height: 600px;
         }
-        img.my{
-            width: 200px;
+        img.{
             height: 150px;
+            width:700px;
+            
         }
         table , th, td{
             border: "10" ;
@@ -63,4 +64,8 @@ footer {
 }
 .main{
     background-color: darkgrey;
+}
+.halo{
+    width:1110px;
+    height:200px;
 }
