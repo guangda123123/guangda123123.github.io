@@ -69,3 +69,8 @@ footer {
     width:1110px;
     height:200px;
 }
+.panel {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
