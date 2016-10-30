@@ -1,76 +1,169 @@
-
-        img {
-            width: 150px;
-            height: 150px;
-        }
-        
-        img.mying {
-            width: 600px;
-            height: 600px;
-        }
-        img.{
-            height: 150px;
-            width:700px;
-            
-        }
-        table , th, td{
-            border: "10" ;
-            background: chocolate
-    
-        }
-        header {
-    background-color:black;
-    color:white;
-    text-align:center;
-    padding:5px;	 
-}
-/*nav {
-    line-height:30px;
-    background-color:#eeeeee;
-    height:1200px;
-    width:100px;
-    float:left;
-    padding:5px;	      
-}*/
-footer {
-    background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:5px;	 	 
-}
 .header {
-    padding-bottom: 22px;
-    margin-bottom: 36px; 
-    border-bottom: 22px solid lemonchiffon;  
-    background-color:black;
-    color:white;
-    text-align:center;
-    padding:5px;
-	 
+    padding-bottom: 20px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #eee;
 }
 
-.footer{
-    padding:45px;
-    margin-top:20px;
+
+/*div.header > div.container {
+    background-color: #D3ECF5;
+    height: 200px;
+}*/
+
+
+/*.main {
+    background-color: #F0F0F0;
+}*/
+
+.sidebar {
+    background-color: #DBF5D3;
+}
+
+.sidebar-module {
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.footer {
+    padding: 40px 0;
     color: #999;
     text-align: center;
     background-color: #f9f9f9;
-    border-top: .05rem solid #E53434;
-    height: 200px;
-}	 	 
-.sidebar{
-    background-color:cornsilk; 
+    border-top: 1px solid #e5e5e5;
 }
-.main{
-    background-color: darkgrey;
+
+h1.title {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
 }
-.halo{
-    width:1110px;
-    height:200px;
+
+.row_item {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 25px;
 }
+
 .panel {
     margin-top: 20px;
     margin-bottom: 50px;
     padding-top: 20px;
+}
+
+.navbar-header {
+    margin-bottom: 50px;
+}
+
+.output {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#login {
+
+	width:100%;
+	display: inline-block;
+	background: #E8EDF1;
+}
+
+#login #loginLeft {
+
+	float: left;
+	width: 57%;
+	display:inline-block;
+}
+
+#login #loginLeft img {
+
+	width:60%;
+	height:200px;
+	margin-left: 36%;
+}
+
+#login #loginLeft .imgDiv {
+	float:left;
+	width: 60%;
+}
+
+#login #loginLeft .desc {
+
+	margin-left:5%;
+	float:left;
+	font-size: 1.4em;
+}
+
+#login #loginLeft .desc p {
+
+	color: #E86;
+}
+#login #loginRight {
+
+	float: right;
+	width: 40%;
+}
+
+#loginRight a{
+	margin-left: 2%;
+	color: #79A158;
+	text-decoration: none;
+	font-size: 1em;
+}
+#loginRight a:hover{
+	background: #B9CFA7;
+}
+#loginRight .inputText {
+
+	width: 40%;
+	height: 30px;
+	border-radius:5px;
+	margin-top:2%;
+	margin-bottom:0.5%;
+}
+#loginRight .remember{
+	margin-top:1%;
+	margin-left:-0.1%;
+}
+
+#loginRight .btn1:first-child{
+
+	margin-left:3%;
+}
+
+#loginRight .btn1:hover{
+
+	background: #4FDE71;
+	border:1px solid #4FDE71;
+}
+
+#loginRight .btn2:hover{
+
+	background: #E0C0D7;
+	border:1px solid #D9B2CE;
+}
+#loginRight .btn1 {
+
+	margin-top: 1%;	
+	width:10%;
+	height: 30px;
+	margin-right: 10%;
+	border-radius:5px;
+	background: #1C9439;
+	border:1px solid #1C9439;
+	font-size:15px;
+	font-family: '微软雅黑';
+	color:white;
+}
+
+#loginRight .btn2 {
+
+	margin-top: 1%;	
+	width:10%;
+	height: 30px;
+	margin-right: 10%;
+	border-radius:5px;
+	background: #E8EDF1;
+	border:1px solid #D2DCE3;
+	font-size:15px;
+	font-family: '微软雅黑';
+	color:#EF735F;
 }
