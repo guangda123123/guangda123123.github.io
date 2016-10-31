@@ -1,0 +1,32 @@
+ img {
+            width: 1000px;
+        }
+        
+       /* img.mying {
+            width: 100px;
+            height: 1200px;
+        }
+        img.{
+            height: 150px;
+            width:700px;
+            
+        }*/
+        table , th, td{
+            border: "10" ;
+            background: chocolate
+    
+        }
+        header {
+    background-color:cadetblue;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:oldlace;
+    height:8265px;
+    width:160px;
+    float:left;
+    padding:5px;	      
+}
