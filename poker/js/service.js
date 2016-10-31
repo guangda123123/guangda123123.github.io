@@ -84,4 +84,3 @@ var ser = {
 		return html;
 	}
 };
-
